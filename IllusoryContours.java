@@ -50,10 +50,10 @@ public class IllusoryContours extends GraphicsProgram {
 		add(circle2);
 		circle3.setFilled(true);
 		circle3.setFillColor(Color.BLACK);
-		add(circle3);
+		add(circle3);*/
 		circle4.setFilled(true);
 		circle4.setFillColor(Color.BLACK);		
-		add(circle4);*/
+		add(circle4);
 	}
 
 	private void showRect() {
