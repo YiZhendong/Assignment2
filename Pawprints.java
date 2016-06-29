@@ -72,11 +72,26 @@ public class Pawprints extends GraphicsProgram {
 		
 	}
 	
+	/**
+	 * Draws a Heel.
+	 * @param x		The x coordinate of the upper-left corner of the bounding box for the heel.
+	 * @param y		The y coordinate of the upper-left corner of the bounding box for the heel.
+	 * @param heelWidth		The width of the bounding box for the heel.
+	 * @param heelHeight		The height of the bounding box for the heel.
+	 */
 	private void drawHeel(double x, double y, double heelWidth, double heelHeight) {
 		drawOval(x,y,heelWidth,heelHeight);
 		
 	}
 
+	
+	/**
+	 * Draws a Oval.
+	 * @param x		The x coordinate of the upper-left corner of the bounding box for the oval.
+	 * @param y		The y coordinate of the upper-left corner of the bounding box for the oval.
+	 * @param width		The width of the bounding box for the Oval.
+	 * @param height	The width of the bounding box for the Oval.
+	 */
 	private void drawOval(double x, double y, double width, double height) {
 		GOval circle = new GOval(x,y,width,height);
 		circle.setFilled(true);
