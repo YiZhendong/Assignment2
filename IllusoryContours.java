@@ -14,7 +14,7 @@ public class IllusoryContours extends GraphicsProgram {
 	public static final int APPLICATION_WIDTH = 300;
 	public static final int APPLICATION_HEIGHT = 300;
 	public static final int CIRCLE_DIAMETER = 50;
-	public int x1,y1,x2,y2,x3,y3,x4,y4;
+	public double x1,y1,x2,y2,x3,y3,x4,y4;
 	public void run() {
 		getCenter();
 		showCircle();
