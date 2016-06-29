@@ -1,6 +1,7 @@
 /* Draws two pawprints
  * author:zhendongYi
  * time:2016/06/29
+ * email:myyizhendong@gmail.com
  */
 import acm.program.*;
 import acm.graphics.*;
