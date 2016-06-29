@@ -13,7 +13,8 @@ public class IllusoryContours extends GraphicsProgram {
 	 */
 	public static final int APPLICATION_WIDTH = 300;
 	public static final int APPLICATION_HEIGHT = 300;
-	
+	public static final int CIRCLE_DIAMETER = 50;
+	public int x1,y1,x2,y2,x3,y3,x4,y4;
 	public void run() {
 		showCircle();
 		showRect();
@@ -21,7 +22,14 @@ public class IllusoryContours extends GraphicsProgram {
 
 	private void showCircle() {
 		// TODO Auto-generated method stub
-		x = 
+		double x1 = getWidth() - CIRCLE_DIAMETER;
+		double y1 = getWidth() - CIRCLE_DIAMETER;
+		double x2 = CIRCLE_DIAMETER;
+		double y2 = CIRCLE_DIAMETER;
+		double x3 = getWidth() - CIRCLE_DIAMETER;
+		double y3 = CIRCLE_DIAMETER;
+		double x4 = CIRCLE_DIAMETER;
+		double y4 = getWidth() - CIRCLE_DIAMETER;
 	}
 
 	private void showRect() {
