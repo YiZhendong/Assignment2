@@ -46,16 +46,16 @@ public class IllusoryContours extends GraphicsProgram {
 		System.out.println(x3+"+"+y3);
 		System.out.println(x4+"+"+y4);
 		circle1.setFilled(true);
-		circle1.setFillColor(Color.red);
+		circle1.setFillColor(Color.black);
 		add(circle1);
 		circle2.setFilled(true);
-		circle2.setFillColor(Color.blue);
+		circle2.setFillColor(Color.black);
 		add(circle2);
 		circle3.setFilled(true);
-		circle3.setFillColor(Color.orange);
+		circle3.setFillColor(Color.black);
 		add(circle3);
 		circle4.setFilled(true);
-		circle4.setFillColor(Color.BLACK);		
+		circle4.setFillColor(Color.black);		
 		add(circle4);
 	}
 
