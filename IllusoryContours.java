@@ -16,11 +16,12 @@ public class IllusoryContours extends GraphicsProgram {
 	public static final int CIRCLE_DIAMETER = 50;
 	public int x1,y1,x2,y2,x3,y3,x4,y4;
 	public void run() {
+		getCenter();
 		showCircle();
 		showRect();
 	}
 
-	private void showCircle() {
+	private void getCenter() {
 		// TODO Auto-generated method stub
 		double x1 = getWidth() - CIRCLE_DIAMETER;
 		double y1 = getWidth() - CIRCLE_DIAMETER;
@@ -30,6 +31,14 @@ public class IllusoryContours extends GraphicsProgram {
 		double y3 = CIRCLE_DIAMETER;
 		double x4 = CIRCLE_DIAMETER;
 		double y4 = getWidth() - CIRCLE_DIAMETER;
+	}
+	
+	private void showCircle(){
+		GOval circle1 = new GOval(x1,y1,CIRCLE_DIAMETER,CIRCLE_DIAMETER);
+		GOval circle2 = new GOval(x2,y2,CIRCLE_DIAMETER,CIRCLE_DIAMETER);
+		GOval circle3 = new GOval(x3,y3,CIRCLE_DIAMETER,CIRCLE_DIAMETER);
+		GOval circle4 = new GOval(x4,y4,CIRCLE_DIAMETER,CIRCLE_DIAMETER);
+		
 	}
 
 	private void showRect() {
