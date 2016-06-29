@@ -46,7 +46,7 @@ public class IllusoryContours extends GraphicsProgram {
 		circle1.setFilled(true);
 		circle1.setFillColor(Color.red);
 		add(circle1);
-		circle2.setFilled(true);
+		/*circle2.setFilled(true);
 		circle2.setFillColor(Color.BLACK);
 		add(circle2);
 		circle3.setFilled(true);
@@ -54,7 +54,7 @@ public class IllusoryContours extends GraphicsProgram {
 		add(circle3);
 		circle4.setFilled(true);
 		circle4.setFillColor(Color.BLACK);		
-		add(circle4);
+		add(circle4);*/
 	}
 
 	private void showRect() {
