@@ -4,7 +4,8 @@ import acm.program.*;
 
 public class QuadraticFormula extends ConsoleProgram {
 	public int a,b,c;
-	public Object discriminant;
+	public double discriminant;
+	public double root1,root2;
 	public void run() {
 		getNumber();
 		getRoots();
@@ -22,17 +23,20 @@ public class QuadraticFormula extends ConsoleProgram {
 		showRoots();
 	}
 
-	private Object getDiscriminant() {
-		
-		double temp;
-		temp = b*b - 4*a*c;
-		if (temp < 0 ) discriminant = null;
-		if (temp == 0) discriminant = Math.sqrt(b*b - 4*a*c);
-		if (temp > 0) discriminant = Math.sqrt(b*b - 4*a*c);
+	private double getDiscriminant() {
+		discriminant = b*b - 4*a*c;
 		return discriminant;
 	}
 
 	private void showRoots() {
-		
+		if(discriminant < 0){
+			println("There are no real roots");
+		}else if(discriminant ==0 ){
+			root1 = (-b)/(2*a)
+			println("this is one root:"+ root1);
+		}else {
+			root1 = (-b+ Math.sqrt(discriminant))/(2*a);
+			root2 = (-b- Math.sqrt(discriminant))/(2*a);
+		}
 	}
 }
