@@ -78,4 +78,12 @@ public class Pawprints extends GraphicsProgram {
 		drawOval(d,e,heelWidth,heelHeight);
 		
 	}
+
+	private void drawOval(double x, double y, double width, double height) {
+		GOval circle = new GOval(x,y,width,height);
+		circle.setFilled(true);
+		circle.setFillColor(Color.black);
+		add(circle);
+		
+	}
 }
