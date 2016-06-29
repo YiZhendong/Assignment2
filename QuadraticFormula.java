@@ -32,11 +32,13 @@ public class QuadraticFormula extends ConsoleProgram {
 		if(discriminant < 0){
 			println("There are no real roots");
 		}else if(discriminant ==0 ){
-			root1 = (-b)/(2*a)
+			root1 = (-b)/(2*a);
 			println("this is one root:"+ root1);
 		}else {
 			root1 = (-b+ Math.sqrt(discriminant))/(2*a);
 			root2 = (-b- Math.sqrt(discriminant))/(2*a);
+			println("one root is:"+root1);
+			println("another root is:"+root2);
 		}
 	}
 }
