@@ -27,9 +27,6 @@ public class IllusoryContours extends GraphicsProgram {
 	 * y代表的远的外切长方形的左上角的y坐标，而非圆心的y坐标
 	 */
 	private void getCenter() {
-		System.out.println(getWidth());
-		System.out.println(getHeight());
-		// TODO Auto-generated method stub
 		x1 = getWidth() - CIRCLE_DIAMETER;
 		y1 = getHeight() - CIRCLE_DIAMETER;
 		x2 = 0;
