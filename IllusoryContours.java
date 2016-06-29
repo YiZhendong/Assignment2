@@ -23,14 +23,14 @@ public class IllusoryContours extends GraphicsProgram {
 
 	private void getCenter() {
 		// TODO Auto-generated method stub
-		double x1 = getWidth() - CIRCLE_DIAMETER;
-		double y1 = getHeight() - CIRCLE_DIAMETER;
-		double x2 = CIRCLE_DIAMETER;
-		double y2 = CIRCLE_DIAMETER;
-		double x3 = getWidth() - CIRCLE_DIAMETER;
-		double y3 = CIRCLE_DIAMETER;
-		double x4 = CIRCLE_DIAMETER;
-		double y4 = getHeight() - CIRCLE_DIAMETER;
+		x1 = getWidth() - CIRCLE_DIAMETER;
+		y1 = getHeight() - CIRCLE_DIAMETER;
+		x2 = CIRCLE_DIAMETER;
+		y2 = CIRCLE_DIAMETER;
+		x3 = getWidth() - CIRCLE_DIAMETER;
+		y3 = CIRCLE_DIAMETER;
+		x4 = CIRCLE_DIAMETER;
+		y4 = getHeight() - CIRCLE_DIAMETER;
 		
 	}
 	
