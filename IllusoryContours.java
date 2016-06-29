@@ -43,16 +43,16 @@ public class IllusoryContours extends GraphicsProgram {
 		GOval circle3 = new GOval(x3,y3,CIRCLE_DIAMETER,CIRCLE_DIAMETER);
 		GOval circle4 = new GOval(x4,y4,CIRCLE_DIAMETER,CIRCLE_DIAMETER);
 		circle1.setFilled(true);
-		circle1.setColor(Color.red);
+		circle1.setFillColor(Color.red);
 		add(circle1);
 		circle2.setFilled(true);
-		circle2.setColor(Color.BLACK);
+		circle2.setFillColor(Color.BLACK);
 		add(circle2);
 		circle3.setFilled(true);
-		circle3.setColor(Color.BLACK);
+		circle3.setFillColor(Color.BLACK);
 		add(circle3);
 		circle4.setFilled(true);
-		circle4.setColor(Color.BLACK);		
+		circle4.setFillColor(Color.BLACK);		
 		add(circle4);
 	}
 
