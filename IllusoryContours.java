@@ -1,4 +1,4 @@
-/* TODO: Replace these file comments with a description of what your program
+/* TODO: A program that show the illusory contour
  * does.
  */
 import acm.program.*;
@@ -15,6 +15,17 @@ public class IllusoryContours extends GraphicsProgram {
 	public static final int APPLICATION_HEIGHT = 300;
 	
 	public void run() {
+		showCircle();
+		showRect();
+	}
 
+	private void showCircle() {
+		// TODO Auto-generated method stub
+		x = 
+	}
+
+	private void showRect() {
+		// TODO Auto-generated method stub
+		
 	}
 }
