@@ -11,8 +11,8 @@ public class IllusoryContours extends GraphicsProgram {
 	 * not directly use these constants in your program; instead, use getWidth() and
 	 * getHeight(), which return the *exact* width and height of the window.
 	 */
-	public static final int APPLICATION_WIDTH = 500;
-	public static final int APPLICATION_HEIGHT = 400;
+	public static final int APPLICATION_WIDTH = 300;
+	public static final int APPLICATION_HEIGHT = 300;
 	public static final int CIRCLE_DIAMETER = 100;
 	public static double x1=0,y1=0,x2=0,y2=0,x3=0,y3=0,x4=0,y4=0;
 	public void run() {
