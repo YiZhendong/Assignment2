@@ -27,11 +27,11 @@ public class IllusoryContours extends GraphicsProgram {
 		// TODO Auto-generated method stub
 		x1 = getWidth() - CIRCLE_DIAMETER;
 		y1 = getHeight() - CIRCLE_DIAMETER;
-		x2 = CIRCLE_DIAMETER;
-		y2 = CIRCLE_DIAMETER;
+		x2 = 0;
+		y2 = 0;
 		x3 = getWidth() - CIRCLE_DIAMETER;
-		y3 = CIRCLE_DIAMETER;
-		x4 = CIRCLE_DIAMETER;
+		y3 = 0;
+		x4 = 0;
 		y4 = getHeight() - CIRCLE_DIAMETER;
 		
 	}
