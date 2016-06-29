@@ -54,6 +54,13 @@ public class Pawprints extends GraphicsProgram {
 	 * @param y The y coordinate of the upper-left corner of the bounding box for the pawprint.
 	 */
 	private void drawPawprint(double x, double y) {
-		
+		drawFirstToe(x+FIRST_TOE_OFFSET_X,y+FIRST_TOE_OFFSET_Y,TOE_WIDTH,TOE_HEIGHT);
+		drawSecondToe(x+SECOND_TOE_OFFSET_X,y+SECOND_TOE_OFFSET_Y,TOE_WIDTH,TOE_HEIGHT);
+		drawThirdToe(x+THIRD_TOE_OFFSET_X,y+THIRD_TOE_OFFSET_Y,TOE_WIDTH,TOE_HEIGHT);
+		drawHeel(x+HEEL_OFFSET_X,y+HEEL_OFFSET_Y,HEEL_WIDTH,HEEL_HEIGHT);
+		/*GOval circle = new GOval();
+		circle1.setFilled(true);
+		circle1.setFillColor(Color.black);
+		add(circle1);*/
 	}
 }
