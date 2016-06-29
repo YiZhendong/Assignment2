@@ -60,16 +60,7 @@ public class Pawprints extends GraphicsProgram {
 		drawHeel(x+HEEL_OFFSET_X,y+HEEL_OFFSET_Y,HEEL_WIDTH,HEEL_HEIGHT);
 	}
 
-	private void drawFirstToe(double d, double e, double toeWidth, double toeHeight) {
-		drawOval(d,e,toeWidth,toeHeight);
-	}
-
-	private void drawSecondToe(double d, double e, double toeWidth, double toeHeight) {
-		drawOval(d,e,toeWidth,toeHeight);
-		
-	}
-
-	private void drawThirdToe(double d, double e, double toeWidth, double toeHeight) {
+	private void drawToe(double d, double e, double toeWidth, double toeHeight) {
 		drawOval(d,e,toeWidth,toeHeight);
 		
 	}
