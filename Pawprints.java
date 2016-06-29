@@ -58,9 +58,24 @@ public class Pawprints extends GraphicsProgram {
 		drawSecondToe(x+SECOND_TOE_OFFSET_X,y+SECOND_TOE_OFFSET_Y,TOE_WIDTH,TOE_HEIGHT);
 		drawThirdToe(x+THIRD_TOE_OFFSET_X,y+THIRD_TOE_OFFSET_Y,TOE_WIDTH,TOE_HEIGHT);
 		drawHeel(x+HEEL_OFFSET_X,y+HEEL_OFFSET_Y,HEEL_WIDTH,HEEL_HEIGHT);
-		/*GOval circle = new GOval();
-		circle1.setFilled(true);
-		circle1.setFillColor(Color.black);
-		add(circle1);*/
+	}
+
+	private void drawFirstToe(double d, double e, double toeWidth, double toeHeight) {
+		drawOval(d,e,toeWidth,toeHeight);
+	}
+
+	private void drawSecondToe(double d, double e, double toeWidth, double toeHeight) {
+		drawOval(d,e,toeWidth,toeHeight);
+		
+	}
+
+	private void drawThirdToe(double d, double e, double toeWidth, double toeHeight) {
+		drawOval(d,e,toeWidth,toeHeight);
+		
+	}
+
+	private void drawHeel(double d, double e, double heelWidth, double heelHeight) {
+		drawOval(d,e,heelWidth,heelHeight);
+		
 	}
 }
