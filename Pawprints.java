@@ -1,5 +1,6 @@
-/* TODO: Replace these file comments with a description of what your program
- * does.
+/* Draws two pawprints
+ * author:zhendongYi
+ * time:2016/06/29
  */
 import acm.program.*;
 import acm.graphics.*;
