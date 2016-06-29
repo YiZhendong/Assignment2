@@ -68,5 +68,6 @@ public class IllusoryContours extends GraphicsProgram {
 		GRect rect = new GRect(x5,y5,rectWidth,rectHeight);
 		rect.setFilled(true);
 		rect.setFillColor(Color.white);
+		add(rect);
 	}
 }
