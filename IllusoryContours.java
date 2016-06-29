@@ -21,6 +21,11 @@ public class IllusoryContours extends GraphicsProgram {
 		showRect();
 	}
 
+	/*
+	 * 得到四个圆心
+	 * x代表圆的外切长方形的左上角的x坐标，而非圆心的x坐标
+	 * y代表的远的外切长方形的左上角的y坐标，而非圆心的y坐标
+	 */
 	private void getCenter() {
 		System.out.println(getWidth());
 		System.out.println(getHeight());
@@ -41,10 +46,6 @@ public class IllusoryContours extends GraphicsProgram {
 		GOval circle2 = new GOval(x2,y2,CIRCLE_DIAMETER,CIRCLE_DIAMETER);
 		GOval circle3 = new GOval(x3,y3,CIRCLE_DIAMETER,CIRCLE_DIAMETER);
 		GOval circle4 = new GOval(x4,y4,CIRCLE_DIAMETER,CIRCLE_DIAMETER);
-		System.out.println(x1+"+"+y1);
-		System.out.println(x2+"+"+y2);
-		System.out.println(x3+"+"+y3);
-		System.out.println(x4+"+"+y4);
 		circle1.setFilled(true);
 		circle1.setFillColor(Color.black);
 		add(circle1);
