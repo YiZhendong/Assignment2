@@ -90,7 +90,7 @@ public class Pawprints extends GraphicsProgram {
 	 * @param x		The x coordinate of the upper-left corner of the bounding box for the oval.
 	 * @param y		The y coordinate of the upper-left corner of the bounding box for the oval.
 	 * @param width		The width of the bounding box for the Oval.
-	 * @param height	The width of the bounding box for the Oval.
+	 * @param height	The height of the bounding box for the Oval.
 	 */
 	private void drawOval(double x, double y, double width, double height) {
 		GOval circle = new GOval(x,y,width,height);
