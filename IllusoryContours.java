@@ -61,6 +61,10 @@ public class IllusoryContours extends GraphicsProgram {
 
 	private void showRect() {
 		// TODO Auto-generated method stub
-		
+		double x5 = CIRCLE_DIAMETER/2;
+		double y5 = CIRCLE_DIAMETER/2;
+		double rectWidth = getWidth() - CIRCLE_DIAMETER;
+		double rectHeight = getHeight() - CIRCLE_DIAMETER;
+		GRect rect = new GRect(x5,y5,)
 	}
 }
