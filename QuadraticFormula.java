@@ -4,7 +4,7 @@ import acm.program.*;
 
 public class QuadraticFormula extends ConsoleProgram {
 	public int a,b,c;
-	public double discriminant;
+	public Object discriminant;
 	public void run() {
 		getNumber();
 		getRoots();
@@ -22,12 +22,17 @@ public class QuadraticFormula extends ConsoleProgram {
 		showRoots();
 	}
 
-	private void getDiscriminant() {
-		discriminant = Math.sqrt(b*b - 4*a*c);
+	private Object getDiscriminant() {
+		
+		double temp;
+		temp = b*b - 4*a*c;
+		if (temp < 0 ) discriminant = null;
+		if (temp == 0) discriminant = Math.sqrt(b*b - 4*a*c);
+		if (temp > 0) discriminant = Math.sqrt(b*b - 4*a*c);
+		return discriminant;
 	}
 
 	private void showRoots() {
-		// TODO Auto-generated method stub
 		
 	}
 }
