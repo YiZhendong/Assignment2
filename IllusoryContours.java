@@ -31,6 +31,10 @@ public class IllusoryContours extends GraphicsProgram {
 		double y3 = CIRCLE_DIAMETER;
 		double x4 = CIRCLE_DIAMETER;
 		double y4 = getHeight() - CIRCLE_DIAMETER;
+		System.out.println(x1+"+"+y1);
+		System.out.println(x2+"+"+y2);
+		System.out.println(x3+"+"+y3);
+		System.out.println(x4+"+"+y4);
 	}
 	
 	private void showCircle(){
