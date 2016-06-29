@@ -22,6 +22,8 @@ public class IllusoryContours extends GraphicsProgram {
 	}
 
 	private void getCenter() {
+		System.out.println(getWidth());
+		System.out.println(getHeight());
 		// TODO Auto-generated method stub
 		x1 = getWidth() - CIRCLE_DIAMETER;
 		y1 = getHeight() - CIRCLE_DIAMETER;
