@@ -59,14 +59,21 @@ public class Pawprints extends GraphicsProgram {
 		drawToe(x+THIRD_TOE_OFFSET_X,y+THIRD_TOE_OFFSET_Y,TOE_WIDTH,TOE_HEIGHT);
 		drawHeel(x+HEEL_OFFSET_X,y+HEEL_OFFSET_Y,HEEL_WIDTH,HEEL_HEIGHT);
 	}
-
-	private void drawToe(double d, double e, double toeWidth, double toeHeight) {
-		drawOval(d,e,toeWidth,toeHeight);
+	
+	/**
+	 * Draws a Toe.
+	 * @param x		The x coordinate of the upper-left corner of the bounding box for the toe.
+	 * @param y		The y coordinate of the upper-left corner of the bounding box for the toe.
+	 * @param toeWidth		The width of the bounding box for the toe.
+	 * @param toeHeight		The height of the bounding box for the toe.
+	 */
+	private void drawToe(double x, double y, double toeWidth, double toeHeight) {
+		drawOval(x,y,toeWidth,toeHeight);
 		
 	}
-
-	private void drawHeel(double d, double e, double heelWidth, double heelHeight) {
-		drawOval(d,e,heelWidth,heelHeight);
+	
+	private void drawHeel(double x, double y, double heelWidth, double heelHeight) {
+		drawOval(x,y,heelWidth,heelHeight);
 		
 	}
 
