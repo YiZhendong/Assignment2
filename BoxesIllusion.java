@@ -33,7 +33,7 @@ public class BoxesIllusion extends GraphicsProgram {
 				double y = i * BOX_SIZE;
 				
 				GRect rect = new GRect(x,y,BOX_SIZE,BOX_SIZE);
-				rect.setFilled(Ture);
+				rect.setFilled(true);
 			}
 		}
 	}
