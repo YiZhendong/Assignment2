@@ -28,9 +28,9 @@ public class TricolorFlag extends GraphicsProgram {
 	 * the mothod is to draw flag,and it draws three rect
 	 */
 	private void drawFlag() {
-		drawRect(x,y,FLAG_WIDTH/3,FLAG_HEIGHT);
-		drawRect(x+FLAG_WIDTH,y,FLAG_WIDTH/3,FLAG_HEIGHT);
-		drawRect(x+FLAG_WIDTH*2,y,FLAG_WIDTH,FLAG_HEIGHT);
+		drawRect(x,y,FLAG_WIDTH/3,FLAG_HEIGHT,Color.black);
+		drawRect(x+FLAG_WIDTH,y,FLAG_WIDTH/3,FLAG_HEIGHT,Color.yellow);
+		drawRect(x+FLAG_WIDTH*2,y,FLAG_WIDTH,FLAG_HEIGHT,Color.red);
 	}
 
 	/**
@@ -40,8 +40,9 @@ public class TricolorFlag extends GraphicsProgram {
 	 * @param width		The width of the rect.
 	 * @param height	The height of the rect.
 	 */
-	private void drawRect(double x, double y, double width, double height) {
-		
+	private void drawRect(double x, double y, double width, double height,Color color) {
+		GRect rect = new GRect(x,y,width,height);
+		rect.setFillColor(color);
 	}
 
 	private void signName() {
