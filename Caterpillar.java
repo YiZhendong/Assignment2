@@ -32,16 +32,16 @@ public class Caterpillar extends GraphicsProgram {
 	private static final int x1 = space;
 	private static final int y1 = 0;
 	
-	private static final int x2 = x + space;
+	private static final int x2 = x1 + space;
 	private static final int y2 = y;
 	
-	private static final int x3 = x1 + space;
+	private static final int x3 = x2 + space;
 	private static final int y3 = 0;
 	
-	private static final int x4 = x2 + space;
+	private static final int x4 = x3 + space;
 	private static final int y4 = y;
 	
-	private static final int x5 = x3 + space;
+	private static final int x5 = x4 + space;
 	private static final int y5 = 0;
 	
 
