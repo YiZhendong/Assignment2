@@ -23,6 +23,10 @@ public class BoxesIllusion extends GraphicsProgram {
 	public static final int APPLICATION_WIDTH = 350;
 	public static final int APPLICATION_HEIGHT = 300;
 
+	/*
+	 * BLANK_WIDTH represents the space of the most left to the first line;
+	 * BLANK_HEIGHT represents the space of the highest to the first row;
+	 */
 	public static final int BLANK_WIDTH = 30;
 	public static final int BLANK_HEIGHT = 20;
 	public void run() {
