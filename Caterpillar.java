@@ -41,6 +41,11 @@ public class Caterpillar extends GraphicsProgram {
 	
 
 	public void run() {
-		
+		GOval circle = new GOval(x,y,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
+		GOval circle1 = new GOval(x1,y1,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
+		GOval circle2 = new GOval(x2,y2,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
+		GOval circle3 = new GOval(x3,y3,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
+		GOval circle4 = new GOval(x4,y4,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
+		GOval circle5 = new GOval(x5,y5,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
 	}
 }
