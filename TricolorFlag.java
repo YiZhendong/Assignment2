@@ -62,7 +62,6 @@ public class TricolorFlag extends GraphicsProgram {
 	}
 
 	private void signName() {
-		// TODO Auto-generated method stub
 		
 	}
 }
