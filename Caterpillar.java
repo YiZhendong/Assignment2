@@ -25,7 +25,7 @@ public class Caterpillar extends GraphicsProgram {
 	
 	//The (x,y) of the left-up coordinate of the first segment.
 	
-	private static final int space = 45;
+	private static final int space = 40;
 	private static final int x = 0;
 	private static final int y = 30;
 	
