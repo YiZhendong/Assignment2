@@ -35,7 +35,7 @@ public class BoxesIllusion extends GraphicsProgram {
 				GRect rect = new GRect(x,y,BOX_SIZE,BOX_SIZE);
 				rect.setFilled(true);
 				
-				add(rect)
+				add(rect);
 			}
 		}
 	}
