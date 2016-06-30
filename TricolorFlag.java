@@ -35,7 +35,7 @@ public class TricolorFlag extends GraphicsProgram {
 
 	/**
 	 * draw a rect
-	 * @param x	  the 
+	 * @param x
 	 * @param y
 	 * @param width
 	 * @param height
