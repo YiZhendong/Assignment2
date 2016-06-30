@@ -47,8 +47,8 @@ public class Caterpillar extends GraphicsProgram {
 
 	public void run() {
 		createCircle(x,y,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
-		/*createCircle(x1,y1,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
-		createCircle(x2,y2,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
+		createCircle(x1,y1,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
+		/*createCircle(x2,y2,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
 		createCircle(x3,y3,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
 		createCircle(x4,y4,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
 		createCircle(x5,y5,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);*/
