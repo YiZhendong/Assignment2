@@ -23,7 +23,7 @@ public class BoxesIllusion extends GraphicsProgram {
 	public static final int APPLICATION_WIDTH = 350;
 	public static final int APPLICATION_HEIGHT = 300;
 
-	public static final int BLANK_WIDTH = 20;
+	public static final int BLANK_WIDTH = 30;
 	public static final int BLANK_HEIGHT = 20;
 	public void run() {
 		/*
