@@ -42,7 +42,7 @@ public class TricolorFlag extends GraphicsProgram {
 	 */
 	private void drawRect(double x, double y, double width, double height,Color color) {
 		GRect rect = new GRect(x,y,width,height);
-		rect.setFilled(ture);
+		rect.setFilled(true);
 		rect.setFillColor(color);
 		add(rect);
 	}
