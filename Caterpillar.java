@@ -20,7 +20,8 @@ public class Caterpillar extends GraphicsProgram {
 	//The width of the near segments;
 	private static final int WIDTH = 30;
 	
-	private static final Color color = Color.red;
+	private static final Color fill_color = Color.red;
+	private static final Color bound_color = Color.black;
 	
 	//The (x,y) of the left-up coordinate of the first segment.
 	private static final int x = 0;
@@ -60,6 +61,9 @@ public class Caterpillar extends GraphicsProgram {
 
 	private void createCircle(int x, int y, int width, int height) {
 		// TODO Auto-generated method stub
-		
+		GOval circle = new GOval(x,y,width,height);
+		circle.setFilled(true);
+		circle.setFillColor(color);
+		circle.setColor()
 	}
 }
