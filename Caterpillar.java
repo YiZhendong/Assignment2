@@ -20,7 +20,7 @@ public class Caterpillar extends GraphicsProgram {
 	//The width of the near segments;
 	private static final int WIDTH = 30;
 	
-	private static final Color fill_color = Color.red;
+	private static final Color fill_color = Color.green;
 	private static final Color bound_color = Color.black;
 	
 	//The (x,y) of the left-up coordinate of the first segment.
