@@ -17,15 +17,14 @@ public class Caterpillar extends GraphicsProgram {
 	//Tht radius of the segment circle
 	private static final int SEGMENT_RADIUS = 30;
 	
-	//The width of the near segments;
-	private static final int WIDTH = 30;
-	
 	private static final Color fill_color = Color.green;
 	private static final Color bound_color = Color.black;
 	
-	//The (x,y) of the left-up coordinate of the first segment.
 	
+	//the space of the two near segments
 	private static final int space = 40;
+	
+	//The (x,y) of the left-up coordinate of the first segment.
 	private static final int x = 0;
 	private static final int y = 30;
 	
@@ -52,12 +51,6 @@ public class Caterpillar extends GraphicsProgram {
 		createCircle(x3,y3,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
 		createCircle(x4,y4,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
 		createCircle(x5,y5,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
-		/*GOval circle = new GOval(x,y,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
-		GOval circle1 = new GOval(x1,y1,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
-		GOval circle2 = new GOval(x2,y2,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
-		GOval circle3 = new GOval(x3,y3,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
-		GOval circle4 = new GOval(x4,y4,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);
-		GOval circle5 = new GOval(x5,y5,SEGMENT_RADIUS*2,SEGMENT_RADIUS*2);*/
 	}
 
 
