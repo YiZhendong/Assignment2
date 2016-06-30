@@ -29,8 +29,8 @@ public class BoxesIllusion extends GraphicsProgram {
 		 */
 		for(int i=0;i < NUM_ROWS ;i++){
 			for(int j=0;j<NUM_COLS;j++){
-				double x = j * BOX_SIZE;
-				double y = i * BOX_SIZE;
+				double x = j * BOX_SIZE+BOX_SPACING;
+				double y = i * BOX_SIZE+BOX_SPACING;
 				
 				GRect rect = new GRect(x,y,BOX_SIZE,BOX_SIZE);
 				rect.setFilled(true);
