@@ -65,5 +65,6 @@ public class Caterpillar extends GraphicsProgram {
 		circle.setFilled(true);
 		circle.setFillColor(fill_color);
 		circle.setColor(bound_color);
+		add(circle);
 	}
 }
