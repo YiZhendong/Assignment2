@@ -53,6 +53,7 @@ public class TricolorFlag extends GraphicsProgram {
 	 * @param y		The y coordinate of the upper-left corner of the box .
 	 * @param width		The width of the rect.
 	 * @param height	The height of the rect.
+	 * @param color 	color of the rect
 	 */
 	private void drawRect(double x, double y, double width, double height,Color color) {
 		GRect rect = new GRect(x,y,width,height);
