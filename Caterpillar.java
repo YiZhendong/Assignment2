@@ -54,8 +54,15 @@ public class Caterpillar extends GraphicsProgram {
 	}
 
 
+	/**
+	 * create a circle .
+	 * @param x		The x coordinate of the upper-left corner of the box .
+	 * @param y		The y coordinate of the upper-left corner of the box .
+	 * @param width		The width of the box .
+	 * @param height	The height of the box.
+	 */
 	private void createCircle(int x, int y, int width, int height) {
-		// TODO Auto-generated method stub
+		
 		GOval circle = new GOval(x,y,width,height);
 		circle.setFilled(true);
 		circle.setFillColor(fill_color);
