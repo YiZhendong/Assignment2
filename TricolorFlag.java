@@ -30,7 +30,7 @@ public class TricolorFlag extends GraphicsProgram {
 	private void drawFlag() {
 		drawRect(x,y,FLAG_WIDTH/3,FLAG_HEIGHT,Color.black);
 		drawRect(x+FLAG_WIDTH,y,FLAG_WIDTH/3,FLAG_HEIGHT,Color.yellow);
-		drawRect(x+FLAG_WIDTH*2,y,FLAG_WIDTH,FLAG_HEIGHT,Color.red);
+		drawRect(x+FLAG_WIDTH*2,y,FLAG_WIDTH/3,FLAG_HEIGHT,Color.red);
 	}
 
 	/**
