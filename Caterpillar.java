@@ -15,7 +15,7 @@ public class Caterpillar extends GraphicsProgram {
 	
 	
 	//Tht radius of the segment circle
-	private static final int SEGMENT_RADIUS = 30;
+	private static final int SEGMENT_RADIUS = 50;
 	
 	//The width of the near segments;
 	private static final int WIDTH = 30;
