@@ -63,7 +63,7 @@ public class Caterpillar extends GraphicsProgram {
 		// TODO Auto-generated method stub
 		GOval circle = new GOval(x,y,width,height);
 		circle.setFilled(true);
-		circle.setFillColor(color);
-		circle.setColor()
+		circle.setFillColor(fill_color);
+		circle.setColor(bound_color);
 	}
 }
