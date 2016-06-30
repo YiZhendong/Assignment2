@@ -16,16 +16,32 @@ public class TricolorFlag extends GraphicsProgram {
 	private static final double x = 100;
 	private static final double y = 50;
 	
-	
+	/**
+	 * The program is divided to two methods;
+	 */
 	public void run() {
 		drawFlag();
 		signName();
 	}
 
+	/**
+	 * the mothod is to draw flag,and it draws three rect
+	 */
 	private void drawFlag() {
 		drawRect(x,y,FLAG_WIDTH/3,FLAG_HEIGHT);
 		drawRect(x+FLAG_WIDTH,y,FLAG_WIDTH/3,FLAG_HEIGHT);
 		drawRect(x+FLAG_WIDTH*2,y,FLAG_WIDTH,FLAG_HEIGHT);
+	}
+
+	/**
+	 * draw a rect
+	 * @param x	  the 
+	 * @param y
+	 * @param width
+	 * @param height
+	 */
+	private void drawRect(double x, double y, double width, double height) {
+		
 	}
 
 	private void signName() {
