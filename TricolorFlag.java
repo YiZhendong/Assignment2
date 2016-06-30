@@ -13,7 +13,23 @@ public class TricolorFlag extends GraphicsProgram {
 	private static final double FLAG_WIDTH  = 300;
 	private static final double FLAG_HEIGHT = 200;
 	
+	private static final double x = 100;
+	private static final double y = 50;
+	
+	
 	public void run() {
+		drawFlag();
+		signName();
+	}
+
+	private void drawFlag() {
+		drawRect(x,y,FLAG_WIDTH/3,FLAG_HEIGHT);
+		drawRect(x+FLAG_WIDTH,y,FLAG_WIDTH/3,FLAG_HEIGHT);
+		drawRect(x+FLAG_WIDTH*2,y,FLAG_WIDTH,FLAG_HEIGHT);
+	}
+
+	private void signName() {
+		// TODO Auto-generated method stub
 		
 	}
 }
