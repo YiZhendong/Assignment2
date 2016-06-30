@@ -35,10 +35,10 @@ public class TricolorFlag extends GraphicsProgram {
 
 	/**
 	 * draw a rect
-	 * @param x
-	 * @param y
-	 * @param width
-	 * @param height
+	 * @param x     The x coordinate of the upper-left corner of the box .
+	 * @param y		The y coordinate of the upper-left corner of the box .
+	 * @param width		The width of the rect.
+	 * @param height	The height of the rect.
 	 */
 	private void drawRect(double x, double y, double width, double height) {
 		
