@@ -64,7 +64,7 @@ public class TricolorFlag extends GraphicsProgram {
 
 	private void signName() {
 		double labelX = getWidth()-150;
-		double labelY = getHeight() - 5;
+		double labelY = getHeight() - 10;
 		GLabel label = new GLabel("myFlag", labelX, labelY);
 		label.setFont("SansSerif-36");
 		label.setColor(Color.black);
