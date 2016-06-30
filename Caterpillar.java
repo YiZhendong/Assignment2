@@ -15,7 +15,7 @@ public class Caterpillar extends GraphicsProgram {
 	
 	
 	//Tht radius of the segment circle
-	private static final int SEGMENT_RADIUS = 50;
+	private static final int SEGMENT_RADIUS = 30;
 	
 	//The width of the near segments;
 	private static final int WIDTH = 30;
@@ -24,19 +24,21 @@ public class Caterpillar extends GraphicsProgram {
 	private static final Color bound_color = Color.black;
 	
 	//The (x,y) of the left-up coordinate of the first segment.
+	
+	private static final int space = 45;
 	private static final int x = 0;
 	private static final int y = 30;
 	
 	private static final int x1 = 30;
 	private static final int y1 = 0;
 	
-	private static final int x2 = x + 30;
+	private static final int x2 = x + space;
 	private static final int y2 = y;
 	
 	private static final int x3 = x1 + 30;
 	private static final int y3 = 0;
 	
-	private static final int x4 = x2 + 30;
+	private static final int x4 = x2 + space;
 	private static final int y4 = y;
 	
 	private static final int x5 = x3 + 30;
