@@ -30,13 +30,13 @@ public class Caterpillar extends GraphicsProgram {
 	private static final int x2 = x + 30;
 	private static final int y2 = y;
 	
-	private static final int x3 = 30;
+	private static final int x3 = x1 + 30;
 	private static final int y3 = 0;
 	
 	private static final int x4 = x2 + 30;
 	private static final int y4 = y;
 	
-	private static final int x5 = 30;
+	private static final int x5 = x3 + 30;
 	private static final int y5 = 0;
 	
 
