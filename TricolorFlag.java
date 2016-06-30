@@ -10,8 +10,8 @@ public class TricolorFlag extends GraphicsProgram {
 	 * our choice of constants here assumes this. Feel free to change these constants
 	 * if you're drawing a flag with a different aspect ratio.
 	 */
-	private static final double FLAG_WIDTH  = 600;
-	private static final double FLAG_HEIGHT = 400;
+	private static final double FLAG_WIDTH  = 450;
+	private static final double FLAG_HEIGHT = 300;
 	
 	//the first rect (x,y)
 	private static final double x = 100;
