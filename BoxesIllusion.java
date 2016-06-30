@@ -24,6 +24,17 @@ public class BoxesIllusion extends GraphicsProgram {
 	public static final int APPLICATION_HEIGHT = 300;
 
 	public void run() {
-		
+		/*
+		 * use a double loop to create the boxes illusion 
+		 */
+		for(int i=0;i < NUM_ROWS ;i++){
+			for(int j=0;j<NUM_COLS;j++){
+				double x = j * BOX_SIZE;
+				double y = i * BOX_SIZE;
+				
+				GRect rect = new GRect(x,y,BOX_SIZE,BOX_SIZE);
+				rect.setFilled(Ture);
+			}
+		}
 	}
 }
